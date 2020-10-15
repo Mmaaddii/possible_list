@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/*background-color: #f1f1f1;*/
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+/*Copyrights*/
+
+.copyright {
+	text-align: center;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+.copyright a {
+	text-decoration: none;
+}
+.copyright a:hover {
+	text-decoration: underline;
+}
+
+.copyright a:active {
+	color: #f37a40;
+}
+
+.copyright a:visited {
+	color: #f37a40;
+}
+
+/*End Copyrights*/
+
+/*Form*/
+
+.project {
+	width: 100%;
+}
+
+.project h1 {
+	 color: #66666659;
+	 text-align: center;
+	 font-family: Tahoma,arial,sans-serif;
+	 letter-spacing: 2px;
+}
+
+form.panelForm * {
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+form.panelForm textarea {
+	resize: none;
+}
+
+form.panelForm select {
+	max-width: 49%;
+	float: left;
+}
+
+form.panelForm #addPanel {
+	max-width: 49%;
+	float: right;
+}
+
+/*End Form*/
+
+
+.container {
+	max-width: 500px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.msgBox {
+	/*color: #f1f1f1;*/
+	/*background-color: #747d8c;*/
+	padding: 15px;
+	margin-bottom: 18px;
+	border-radius: 4px;
+	border: 2px solid #333;
+}
+
+.msgBox .close {
+	float: right;
+	height: 32px;
+	width: 32px;
+	font-weight: bold;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+.msgBox .close:active,
+.msgBox .close:focus {
+	outline: none;
+}
+
+.msgBox img {
+	float: left;
+}
+
+.msgBox hr {
+	color: red;
+	background-color: #555;
+	margin: 15px 0;
+	/*border: 1px dotted #555;*/
+	border: none;
+	height: 1px;
+}
+
+.msgBox p {
+	font-size: 1.1rem;
+}
+
+.chat {
+	background-color: #a4a9ffb0;
+}
+
+.warning {
+	background-color: #ff475769;
+}
